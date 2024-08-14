@@ -1,0 +1,51 @@
+.logo{
+  width: 10rem;
+}
+.navbar{
+  width: 100%;
+  margin: 0rem;
+  padding: 1rem;
+  box-shadow: 0 0rem 0.5rem rgba(0, 0, 0, 0.322);
+}
+.gallery{
+  display: flex;
+  width: 100%;
+  margin: 1rem;
+  margin-top: 3rem;
+  justify-content: center;
+}
+.Area1,.Area2,.Area3,.Area4,.Area5{
+  display: grid;
+  margin: 0.2rem;
+}
+.Area1{
+  align-items: center;
+  padding-bottom: 5rem;
+}
+.Area2,.Area4{
+  height: fit-content;
+}
+.Area3,.Area5{
+  padding-top: 2rem;
+}
+.imgs{
+  margin-bottom: 0.4rem;
+}
+.about{
+  margin-left: 5rem;
+}
+.about--title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 2.3rem;
+line-height: 110%;
+}
+.about--content{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 1rem;
+line-height: 110%;
+color: #222222;
+}
