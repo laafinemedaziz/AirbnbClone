@@ -6,12 +6,12 @@ import {Contacts} from './assets/Components/Contacts'
 function App() {
 
   return (
-    <>
+    <div className='app'>
       <Navbar />
       <ImagesArea />
       <About />
       <Contacts />
-    </>
+    </div>
   )
 }
 

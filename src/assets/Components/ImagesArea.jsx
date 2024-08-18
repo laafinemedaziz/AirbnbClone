@@ -10,7 +10,7 @@ import image9 from '../Images/image 30.png'
 export function ImagesArea(){
     return(
         <div className="gallery">
-            <div className="Area1"><img src={image7} alt = "imgs"/></div>
+            <div className="Area1"><img src={image7} alt = "Img" className='imgs'/></div>
             <div className="Area2">
                 <img src={image9} className='imgs' alt='Img'/>
                 <img src={image5} className='imgs' alt='Img'/>
